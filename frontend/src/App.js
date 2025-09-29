@@ -49,6 +49,10 @@ function App() {
                 path="/status" 
                 element={<SystemStatusPage />} 
               />
+              <Route 
+                path="/analytics" 
+                element={<RouteAnalytics />} 
+              />
             </Routes>
           </main>
         </div>
