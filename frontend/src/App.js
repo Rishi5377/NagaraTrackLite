@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import LiveMapPage from './components/LiveMapPage';
 import SystemStatusPage from './components/SystemStatusPage';
+import RouteAnalytics from './components/RouteAnalytics';
 import Sidebar from './components/Sidebar';
 import './App.css';
 
